@@ -1,11 +1,7 @@
-# 📸 Demo
 
-<!-- Replace with your own screenshot -->
-
-![Surgical Analytics Pro Demo](./assets/demo.png)
 
 🔗 **Live Demo:**
-https://your-streamlit-deploy-url
+https://surgerydashboardd.streamlit.app
 
 ---
 

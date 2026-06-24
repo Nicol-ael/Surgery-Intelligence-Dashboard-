@@ -833,7 +833,7 @@ def style_chart(fig):
     )
     return fig
 # --- NUEVA FILA: DEMOGRAPHIC OVERVIEW ---
-st.markdown("### *______________________________________________________________________________*")
+st.markdown("### *__________________________________________________________________________*")
 col_a, col_b = st.columns(2)
 
 with col_a:
