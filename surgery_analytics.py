@@ -604,9 +604,14 @@ with k1:
 with k2:
     st.metric("Avg. Cost", f"${avg_cost:,.0f}")
 
+# Opción A: Mover el "/ 10" al título
 with k3:
-    st.metric("Avg. Satisfaction", f"{avg_satisfaction:.1f} / 10")
+    st.metric("Avg. Satisfaction (/10)", f"{avg_satisfaction:.1f}")
 
+# O, Opción B: Usar el parámetro 'help' para que no ocupe espacio visual
+with k3:
+    st.metric("Avg. Satisfaction", f"{avg_satisfaction:.1f}", help="Escala de 1 a 10")
+    
 with k4:
     st.metric("Avg. Recovery", f"{avg_recovery:.1f} ")
 
