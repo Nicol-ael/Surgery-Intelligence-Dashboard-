@@ -311,7 +311,7 @@ from pathlib import Path
 @st.cache_data
 def load_data():
 
-    ruta = Path(__file__).parent.parent / "surgeryplastic.csv"
+    ruta = Path(__file__).parent / "surgeryplastic.csv"
 
     df = pd.read_csv(ruta)
 
