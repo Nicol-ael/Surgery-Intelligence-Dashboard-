@@ -59,7 +59,7 @@ st.markdown("""
 # 3. CARGA DE MODELO (Misma lógica)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.dirname(os.path.dirname(current_dir))
-ruta_modelo = os.path.join(root_dir, "models", "modelo_coste.pkl")
+ruta_modelo = os.path.join(root_dir, "modelo_coste.pkl")
 with open(ruta_modelo, "rb") as f:
     modelo = pickle.load(f)
 
